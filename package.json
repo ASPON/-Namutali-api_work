@@ -1,0 +1,21 @@
+{
+  "name": "add-multi-server",
+  "version": "1.0.0",
+  "description": "addition and multiplication of numbers API",
+  "main": "server1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "learn": "echo \"lerning chemistry and mathematics\" && exit 1",
+    "start1": "node server1.js"
+  },
+  "author": "Namutali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  }
+}
